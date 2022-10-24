@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+body {
+    background-image: url(/img/home__background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.wrapper {
+    display: flex;
+}
+.header .wrapper {
+    padding: 18px 128px;
+}
+.header-link {
+    margin-right: auto;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    color: #F2F2F2;
+}
+.menu {
+    display: flex;
+    gap: 64px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 114px 128px;
+    color: #FFFFFF;
+}
+.top {
+    max-width: 720px;
+}
+.title {
+    font-weight: 300;
+    font-size: 144px;
+    line-height: 169px;
+    margin: 0;
+    margin-bottom: 32px;
+}
+.descr {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 96px;
+}
+.form input {
+    width: 420px;
+    padding: 18px 24px;
+    background: rgba(89, 2, 9, 0.5);
+    border-radius: 16px;
+    border: none;
+    margin-right: 48px;
+}
+.btn-deskr {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.btn {
+    padding: 14px 85px;
+    background: linear-gradient(0deg, rgba(4, 8, 13, 0.4), rgba(4, 8, 13, 0.4)), #024959;
+    border-radius: 16px;
+    color: #FFFFFF;
+}
